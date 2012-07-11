@@ -63,7 +63,7 @@ Ora diciamo che hai aggiunto un nuovo file al tuo progetto, un semplice file REA
 
 	$ vim README
 	$ git status
-	# On branch master
+	# On branch MASTER
 	# Untracked files:
 	#   (use "git add <file>..." to include in what will be committed)
 	#
@@ -633,7 +633,7 @@ Uno degli annullamenti comuni è quando invii troppo presto un commit e magari d
 
 	$ git commit --amend
 
-Questo commando prende la tua area di parcheggio e la usa per il commit. Se non hai fatto cambiamenti dal tuo ultimo commit (per esempio, lanci questo comando subito dopo il tuo commit precedente), allora il tuo snapshot sarà esattamente uguale e potrai cambiare il tuo messaggio di commit.
+Questo comando prende la tua area di parcheggio e la usa per il commit. Se non hai fatto cambiamenti dal tuo ultimo commit (per esempio, lanci questo comando subito dopo il tuo commit precedente), allora il tuo snapshot sarà esattamente uguale e potrai cambiare il tuo messaggio di commit.
 
 L'editor per il messaggio del commit apparirà, ma già contiene il messaggio del commit precedente. Puoi modificare il messaggio come sempre, ma sovrascriverà il commit precedente.
 
