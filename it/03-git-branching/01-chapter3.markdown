@@ -17,7 +17,7 @@ Per immaginare questo, presumi di avere una cartella che contiene tre file, li i
 
 Quando crei il commit eseguendo `git commit`, Git esegue il checksum per ogni sottocartella (in questo caso, solo la cartella radice (root) del progetto) e salva questi tre oggetti nel repository di Git. Dopo Git crea un oggetto commit che ha i metadata e un puntatore alla radice del progetto in modo che possa ricreare questo snapshot quando necessario.
 
-La tua repository Git ora contiene 5 oggetti: un blob per il contenuto di ognuno dei tuoi tre file, un albero che elenca il contenuto della cartella e specifica quali nomi di file sono memorizzati come blobs, e un commit con il riferimento alla cartella radice e a tutti i metadata del commit. Concettualmente i dati nella tua repository di Git dovrebbero essere organizzato in modo simile alla Figura 3.1:
+La tua repository Git ora contiene 5 oggetti: un blob per il contenuto di ognuno dei tuoi tre file, un albero che elenca il contenuto della cartella e specifica quali nomi di file sono memorizzati come blobs, e un commit con il riferimento alla cartella radice e a tutti i metadata del commit. Concettualmente i dati nella tua repository di Git dovrebbero essere organizzati in modo simile alla Figura 3.1:
 
 Insert 18333fig0301.png 
 Figura 3-1. Dati di una repository di un singolo commit.
